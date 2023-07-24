@@ -1,0 +1,23 @@
+
+https://youtu.be/S_F_c9e2bz4
+#project structure 
+. Data Ingestion 
+. Data Transfromation
+. Model Trainer
+. Model Evaluation
+. Model Deployment
+
+CI/CD Pipeline - Github Actions 
+Deployment - AWS
+
+
+1. create the environment in the same folder here - mlProject:
+conda create -p venv python==3.8 -y
+
+2. activate the environment:
+ conda acitvate venv/
+
+3. commit files by following the commands on github 
+
+4. make setup.py, requirements.txt
+5. make src folder in your main project folder and __init__.py file inside that src folder
